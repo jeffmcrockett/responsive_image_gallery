@@ -80,7 +80,7 @@ h1 {
 
 h2 {
     font-size: 1.5vw;
-    color: white;
+    color: rgba(255, 255, 255, 0.562);
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -102,6 +102,15 @@ img {
       flex: 50%;
       max-width: 46%;
     }
+    p {
+      font-size: 3vw;
+    }
+    h2 {
+      font-size: 3vw;
+    }
+    h1 {
+      font-size: 5vw;
+    }
   }
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -110,5 +119,14 @@ img {
       -ms-flex: 100%;
       flex: 100%;
       max-width: 100%;
+    }
+    p {
+      font-size: 6vw;
+    }
+    h2 {
+        font-size: 6vw;
+    }
+    h1 {
+        font-size: 8vw;
     }
 }
